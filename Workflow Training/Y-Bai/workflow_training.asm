@@ -11,7 +11,7 @@
 	li $t2 2
 	add $t0, $t1, $t2
 	
-	#output: Prints the sum of $t0 & $t1 from $t0.
+	#output: Prints the sum of $t0 & $t1 from $t0. hell yea
 	move $a0 $t0
 	li $v0, 1
 	syscall
