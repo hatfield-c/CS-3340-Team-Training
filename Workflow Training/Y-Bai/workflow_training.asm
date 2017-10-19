@@ -6,7 +6,7 @@
 	li $v0, 4
 	syscall
 
-	#method: Add 4 & 2 together and place it in $t0
+	#method: Add 4 & 2 together and place it in $t0  hell yea
 	li $t1 4
 	li $t2 2
 	add $t0, $t1, $t2
