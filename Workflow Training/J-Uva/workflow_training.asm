@@ -7,8 +7,8 @@
 	syscall
 
 	#method: Add 4 & 2 together and place it in $t0
-	li $t1 4
-	li $t2 2
+	li $t1 7
+	li $t2 8
 	add $t0, $t1, $t2
 	
 	#output: Prints the sum of $t0 & $t1 from $t0.
@@ -21,4 +21,4 @@
 	syscall
 		
 .data
-	msg: 	.asciiz 	"Welcome! This program will calculate two integer values that you enter.\n2 + 4 = "
+	msg: 	.asciiz 	"Welcome! This program will calculate two integer values that you enter.\n8 + 7 = "
